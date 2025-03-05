@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Rahul Sharma",
+      "age": 25,
+      "email": "rahul.sharma@example.com",
+      "city": "Mumbai",
+      "occupation": "Software Engineer"
+    },
+    {
+      "name": "Priya Verma",
+      "age": 28,
+      "email": "priya.verma@example.com",
+      "city": "Delhi",
+      "occupation": "Data Analyst"
+    },
+    {
+      "name": "Amit Patel",
+      "age": 30,
+      "email": "amit.patel@example.com",
+      "city": "Ahmedabad",
+      "occupation": "Marketing Manager"
+    },
+    {
+      "name": "Neha Joshi",
+      "age": 27,
+      "email": "neha.joshi@example.com",
+      "city": "Pune",
+      "occupation": "Graphic Designer"
+    },
+    {
+      "name": "Vikram Singh",
+      "age": 32,
+      "email": "vikram.singh@example.com",
+      "city": "Bangalore",
+      "occupation": "Product Manager"
+    },
+    {
+      "name": "Sneha Kapoor",
+      "age": 29,
+      "email": "sneha.kapoor@example.com",
+      "city": "Chennai",
+      "occupation": "HR Manager"
+    }
+  ]
+  

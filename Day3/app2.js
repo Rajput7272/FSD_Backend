@@ -1,14 +1,20 @@
 const express=require('express')
-
+const fs=require('fs/promises')
 const app=express();
 app.use(express.json());
-const users=[
-    {id:1,name:'Ram',age:25},
-    {id:2,name:'Rahul',age:30},
-    {id:3,name:'Rohit',age:35},
-];
+const users=[];
+     
+   const readdata=()=>{
+   users=fs.readFile('./data.json','utf8')
+   }
+   const writedata=()=>{
+    fs.writedata=()=>{
+        fs.writeFile('./data.json',JSON.stringify(users,null,2));
+    }
 
+   }
 app.get('/api',(req,res)=>{
+    readdata();
 res.json(users);
 })
 
@@ -17,6 +23,7 @@ app.post('/users',(req,res)=>{
     const newid=users.length<0?users[users.length-1].id+1:1;
     data.id=newid;
     users.push(data);
+    writedata();
     res.json({message:'data Recieved ',data:data});
 });
 

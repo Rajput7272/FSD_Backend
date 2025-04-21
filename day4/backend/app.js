@@ -60,3 +60,6 @@ app.delete("/users/:id", (req, res) => {
 app.listen(9000, () => {
   console.log("Server running on port 9000");
 });
+app.get('/', (req, res) => {
+  res.send('Backend is running successfully!');
+});
